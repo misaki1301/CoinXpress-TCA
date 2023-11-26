@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "E0184739-5177-4003-9E99-013BAD551978",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:CoinXpress.xcodeproj",
+      "identifier" : "F513343E2B07F61D00C12D02",
+      "name" : "CoinXpress"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:CoinXpress.xcodeproj",
+        "identifier" : "F513344E2B07F62000C12D02",
+        "name" : "CoinXpressTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:CoinXpress.xcodeproj",
+        "identifier" : "F51334582B07F62000C12D02",
+        "name" : "CoinXpressUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

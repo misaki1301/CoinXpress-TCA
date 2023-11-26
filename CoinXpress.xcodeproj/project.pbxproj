@@ -14,6 +14,14 @@
 		F51334542B07F62000C12D02 /* CoinXpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51334532B07F62000C12D02 /* CoinXpressTests.swift */; };
 		F513345E2B07F62000C12D02 /* CoinXpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513345D2B07F62000C12D02 /* CoinXpressUITests.swift */; };
 		F51334602B07F62000C12D02 /* CoinXpressUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513345F2B07F62000C12D02 /* CoinXpressUITestsLaunchTests.swift */; };
+		F513346E2B07F8A600C12D02 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F513346D2B07F8A600C12D02 /* ComposableArchitecture */; };
+		F51334712B07F8E200C12D02 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51334702B07F8E200C12D02 /* CounterFeature.swift */; };
+		F55A370C2B0827C60036304C /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55A370B2B0827C60036304C /* CounterFeatureTests.swift */; };
+		F584CB142B085DBF00CD04A9 /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584CB132B085DBF00CD04A9 /* NumberFactClient.swift */; };
+		F584CB172B09265000CD04A9 /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584CB162B09265000CD04A9 /* ContactsFeature.swift */; };
+		F584CB1A2B09280500CD04A9 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584CB192B09280500CD04A9 /* ContactsView.swift */; };
+		F590C33C2B09F4F3001E1487 /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F590C33B2B09F4F3001E1487 /* AddContactFeature.swift */; };
+		F590C33E2B09F72B001E1487 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F590C33D2B09F72B001E1487 /* AddContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,15 @@
 		F51334592B07F62000C12D02 /* CoinXpressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinXpressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F513345D2B07F62000C12D02 /* CoinXpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinXpressUITests.swift; sourceTree = "<group>"; };
 		F513345F2B07F62000C12D02 /* CoinXpressUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinXpressUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F51334702B07F8E200C12D02 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
+		F55A370A2B08178F0036304C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F55A370B2B0827C60036304C /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
+		F584CB112B0859EC00CD04A9 /* CoinXpress.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoinXpress.xctestplan; sourceTree = "<group>"; };
+		F584CB132B085DBF00CD04A9 /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
+		F584CB162B09265000CD04A9 /* ContactsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeature.swift; sourceTree = "<group>"; };
+		F584CB192B09280500CD04A9 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		F590C33B2B09F4F3001E1487 /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
+		F590C33D2B09F72B001E1487 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F513346E2B07F8A600C12D02 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +92,7 @@
 		F51334362B07F61D00C12D02 = {
 			isa = PBXGroup;
 			children = (
+				F584CB112B0859EC00CD04A9 /* CoinXpress.xctestplan */,
 				F51334412B07F61D00C12D02 /* CoinXpress */,
 				F51334522B07F62000C12D02 /* CoinXpressTests */,
 				F513345C2B07F62000C12D02 /* CoinXpressUITests */,
@@ -94,6 +113,11 @@
 		F51334412B07F61D00C12D02 /* CoinXpress */ = {
 			isa = PBXGroup;
 			children = (
+				F584CB182B0927E300CD04A9 /* Views */,
+				F584CB152B09262D00CD04A9 /* Features */,
+				F584CB122B085DAE00CD04A9 /* Services */,
+				F55A370A2B08178F0036304C /* Info.plist */,
+				F513346F2B07F8B800C12D02 /* Reducers */,
 				F51334422B07F61D00C12D02 /* CoinXpressApp.swift */,
 				F51334442B07F61D00C12D02 /* ContentView.swift */,
 				F51334462B07F61F00C12D02 /* Assets.xcassets */,
@@ -114,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				F51334532B07F62000C12D02 /* CoinXpressTests.swift */,
+				F55A370B2B0827C60036304C /* CounterFeatureTests.swift */,
 			);
 			path = CoinXpressTests;
 			sourceTree = "<group>";
@@ -125,6 +150,40 @@
 				F513345F2B07F62000C12D02 /* CoinXpressUITestsLaunchTests.swift */,
 			);
 			path = CoinXpressUITests;
+			sourceTree = "<group>";
+		};
+		F513346F2B07F8B800C12D02 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				F51334702B07F8E200C12D02 /* CounterFeature.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		F584CB122B085DAE00CD04A9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F584CB132B085DBF00CD04A9 /* NumberFactClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F584CB152B09262D00CD04A9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F584CB162B09265000CD04A9 /* ContactsFeature.swift */,
+				F590C33B2B09F4F3001E1487 /* AddContactFeature.swift */,
+				F590C33D2B09F72B001E1487 /* AddContactView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F584CB182B0927E300CD04A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F584CB192B09280500CD04A9 /* ContactsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +202,9 @@
 			dependencies = (
 			);
 			name = CoinXpress;
+			packageProductDependencies = (
+				F513346D2B07F8A600C12D02 /* ComposableArchitecture */,
+			);
 			productName = CoinXpress;
 			productReference = F513343F2B07F61D00C12D02 /* CoinXpress.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +277,9 @@
 				Base,
 			);
 			mainGroup = F51334362B07F61D00C12D02;
+			packageReferences = (
+				F513346C2B07F8A600C12D02 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = F51334402B07F61D00C12D02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +322,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51334712B07F8E200C12D02 /* CounterFeature.swift in Sources */,
 				F51334452B07F61D00C12D02 /* ContentView.swift in Sources */,
 				F51334432B07F61D00C12D02 /* CoinXpressApp.swift in Sources */,
+				F584CB1A2B09280500CD04A9 /* ContactsView.swift in Sources */,
+				F584CB142B085DBF00CD04A9 /* NumberFactClient.swift in Sources */,
+				F584CB172B09265000CD04A9 /* ContactsFeature.swift in Sources */,
+				F590C33C2B09F4F3001E1487 /* AddContactFeature.swift in Sources */,
+				F590C33E2B09F72B001E1487 /* AddContactView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F51334542B07F62000C12D02 /* CoinXpressTests.swift in Sources */,
+				F55A370C2B0827C60036304C /* CounterFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +497,14 @@
 				DEVELOPMENT_TEAM = B97JTSGWZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoinXpress/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +529,14 @@
 				DEVELOPMENT_TEAM = B97JTSGWZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoinXpress/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,7 +559,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B97JTSGWZ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.CoinXpressTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,7 +579,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B97JTSGWZ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.CoinXpressTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,6 +598,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B97JTSGWZ2;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.CoinXpressUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,6 +617,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B97JTSGWZ2;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.CoinXpressUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -588,6 +668,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F513346C2B07F8A600C12D02 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F513346D2B07F8A600C12D02 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F513346C2B07F8A600C12D02 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F51334372B07F61D00C12D02 /* Project object */;
 }
